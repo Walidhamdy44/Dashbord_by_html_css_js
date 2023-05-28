@@ -64,7 +64,7 @@ imgProfile.onclick = function () {
   Swal.fire({
     title: "Walid Hamdy",
     text: `Level 7⚡`,
-    imageUrl: "../imgs/photo_2023-01-23_21-35-46.jpg",
+    imageUrl: "imgs/photo_2023-01-23_21-35-46.jpg",
     imageWidth: 300,
     imageHeight: 300,
     imageAlt: "Custom image",
