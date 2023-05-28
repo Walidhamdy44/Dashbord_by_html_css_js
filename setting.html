@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="lo" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <span>Legend</span>
+      </div>
+      <div class="logo-right">
+        <i class="fa-solid fa-circle-user"></i>
+        <span>Walid Lo</span>
+      </div>
+      <form>
+        <input type="search" name="ko" id="search" placeholder="Search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+      <div class="two">
+        <i class="fa-solid fa-bell fa-shake"></i>
+        <i class="fa-solid fa-gear"></i>
+        <img src="imgs/photo_2023-01-23_21-35-46.jpg" alt="" id="img-profile" />
+      </div>
+    </div>
+    <div class="page">
+      <div class="side">
+        <div class="links">
+          <ul>
+            <li>
+              <i class="fa-solid fa-chart-simple"></i
+              ><a href="index.html">Dashbord</a>
+            </li>
+            <li class="active">
+              <i class="fa-solid fa-gear"></i><a href="#">Setting</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-user"></i><a href="profil.html">Profile</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-pen-ruler"></i
+              ><a href="frends.html">Frends</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-headphones"></i
+              ><a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-user-group"></i
+              ><a href="plans.html">Plans</a>
+            </li>
+          </ul>
+        </div>
+        <div class="add">
+          <i class="fa-solid fa-plus"></i>
+          <span>Add New Task</span>
+        </div>
+        <div class="out">
+          <i class="fa-solid fa-right-from-bracket"></i>
+          <span id="log">Loge Out</span>
+        </div>
+      </div>
+      <div class="contant">
+        <div class="main-title">
+          <h2 class="main-h2">Our Statics</h2>
+          <div class="setting-options">
+            <div class="box">
+              <h3>Display The Statics and Progress</h3>
+              <div class="toggel">
+                <div class="toggel-button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="setting-container" id="statics">
+          <div class="box">
+            <canvas id="myChart" width="400" height="400"></canvas>
+          </div>
+          <div class="box">
+            <canvas id="myChart2" style="width: 400px; height: 400px"></canvas>
+          </div>
+          <div class="box">
+            <canvas id="myChart3" style="width: 400px; height: 400px"></canvas>
+          </div>
+          <div class="box">
+            <canvas id="myChart4" style="width: 400px; height: 400px"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/alert.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js"></script>
+    <script src="js/chart.js"></script>
+  </body>
+</html>
